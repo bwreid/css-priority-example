@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Priority Example</title>
+
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <span>
+    No style but the element style.
+  </span>
+
+  <span class="myclass">
+    Element style + a class!
+  </span>
+
+  <span id="myid" class="myclass">
+    Element style + a class + an id!
+  </span>
+
+  <span id="myid" class="myclass" style="color: green;">
+    Element style + a class + an id!
+  </span>
+
+  <span id="myid" class="myclass myimportantclass" style="color: green;">
+    Element style + a class + an id!
+  </span>
+</body>
+</html>

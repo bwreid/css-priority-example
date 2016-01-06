@@ -1,0 +1,17 @@
+span {
+  color: red;
+  display: block;
+  margin: 20px 0;
+}
+
+.myclass {
+  color: orange;
+}
+
+#myid {
+  color: yellow;
+}
+
+.myimportantclass {
+  color: blue !important;
+}
